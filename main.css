@@ -8,12 +8,84 @@ body{
     background-size: 100% 100%;
     -o-background-size: 100% 100%;
 }
-#logo img{
-    display: block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+h1{
+    color: #603813;
 }
+h2{
+    color: #603813;
+}
+
+
+.wholePage{
+    max-width: 100%;
+    padding: 5px;
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.left{
+    width: 30%;
+    float: left;
+}
+.mainMenu{
+    border: 8px cornflowerblue solid;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+}
+#mainMenu{
+    display: inline-block;
+}
+
+.inventory{
+    border: 5px transparent solid;
+    display: inline-block;
+}
+.panel{
+    background-image:linear-gradient(to bottom right, white, purple);
+    margin: 0 0 2.0em 5px;
+    padding: 1em 1em 1em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+    width: 40%;
+    height: 30%;
+}
+.panel img{
+    width: 90%;
+    margin: 0;
+    border-radius: 20px;
+    height: 170px;
+}
+
+
+.middle{
+    width: 15%;
+}
+
+
+.right{
+    width: 30%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
 
 
 
