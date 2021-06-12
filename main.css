@@ -108,7 +108,7 @@ a{
     overflow: hidden;
     border: 5px green solid;
     border-radius: 10px;
-    width: 100%;
+    width: 120%;
     max-height:31rem;    
 }
 #slider figure{
@@ -188,6 +188,7 @@ a{
 .right{
     width: 35%;
     float: right;
+    margin-left: 2.5%;
 }
 
 .accountMenu {
@@ -199,27 +200,37 @@ a{
     margin-right: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.accountMenu li{
+    list-style-type: none;
+    display: inline-block;
+}
+.blog{
+    margin-top: 5%;
+    border: 5px red solid;
+    border-radius: 20px;
+    padding: 3px;
+    background-image:linear-gradient(to bottom right, white, red);
+    color:black;
+    font-size: 140%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blog img{
+    border-radius: 20px;
+    width: 50%;
+    float: right;
+    margin-right: 2%;
+}
+.blogText{
+    margin-left: 2%;
+    width: 40%;
+    border: 1px transparent solid;
+}
+.blog h2{
+    text-decoration: underline;
+    text-align: center;
+    color: darkgoldenrod;
+}
 
 
 
