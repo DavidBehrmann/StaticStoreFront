@@ -15,3 +15,88 @@ body{
     margin-right: auto;
 }
 
+
+
+
+
+
+
+
+
+#slider{
+    overflow: hidden;
+    border: 5px green solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 800px;
+}
+#slider figure{
+    position:relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+    animation: 50s slider infinite;
+
+}
+#slider figure img{
+    float: left;
+    width: 10%;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -500%;
+    }
+    70%{
+        left: -500%;
+    }
+    72%{
+        left: -600%;
+    }
+    82%{
+        left: -600%;
+    }
+    84%{
+        left: -700%;
+    }
+    94%{
+        left: -700%;
+    }
+    96%{
+        left: -800%;
+    }
+    100%{
+        left: -800%;
+    }
+    
+}
