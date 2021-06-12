@@ -35,6 +35,7 @@ a{
     float: left;
     
 }
+
 .mainMenu{
     
     border: 8px cornflowerblue solid;
@@ -59,10 +60,12 @@ a{
     float: left;
 }
 .sideBar h2{
-    margin-left: 5%;
+    margin-left: 8%;
 }
 .sideBar ul li{
     text-decoration: none;
+    list-style:none;
+    font-size: 20px;
 }
 
 .inventory{
@@ -203,7 +206,18 @@ a{
 .accountMenu li{
     list-style-type: none;
     display: inline-block;
+    padding-left: 10%;
+    
 }
+.accountMenu h4{
+    color: #603813;
+    font-size: 140%;
+    padding-left: 10%;
+}
+
+
+
+
 .blog{
     margin-top: 5%;
     border: 5px red solid;
